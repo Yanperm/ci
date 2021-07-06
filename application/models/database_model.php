@@ -20,4 +20,5 @@ class Database_model extends CI_Model{
         $this->db->delete("");
         return true;
     }
+    
 }
