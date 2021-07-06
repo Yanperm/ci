@@ -76,9 +76,11 @@
 		<code>application/views/welcome_message.php</code>
 		<table border="1px">
 			<th>
+				<tr>
 				<td>หมายเลขบัตร</td>
 				<td>ชื่อ-สกุล</td>
 				<td>อีเมล์</td>
+				</tr>
 			</th>
 			<tbody>
 			<?php
