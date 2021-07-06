@@ -71,14 +71,7 @@
 
 	<div id="body">		
 		<code>
-		<table border="1px">
-			<thead>
-			<th>				
-				<th>หมายเลขบัตร</th>
-				<th>ชื่อ-สกุล</th>
-				<th>อีเมล์</th>				
-			</th>
-			</thead>
+		<table border="1px">			
 			<tbody>
 			<?php
 			foreach($query as $row){
