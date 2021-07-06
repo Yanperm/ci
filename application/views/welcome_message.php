@@ -76,9 +76,9 @@
 		<code>application/views/welcome_message.php</code>
 		<table border="1px">
 			<th>
-				<tr>หมายเลขบัตร</tr>
-				<tr>ชื่อ-สกุล</tr>
-				<tr>อีเมล์</tr>
+				<td>หมายเลขบัตร</td>
+				<td>ชื่อ-สกุล</td>
+				<td>อีเมล์</td>
 			</th>
 			<tbody>
 			<?php
