@@ -74,7 +74,7 @@
 
 		<p>If you would like to edit this page you'll find it located at:</p>
 		<code>application/views/welcome_message.php</code>
-		<table>
+		<table border="1px">
 			<th>
 				<tr>หมายเลขบัตร</tr>
 				<tr>ชื่อ-สกุล</tr>
