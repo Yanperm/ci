@@ -74,7 +74,26 @@
 
 		<p>If you would like to edit this page you'll find it located at:</p>
 		<code>application/views/welcome_message.php</code>
-
+		<table>
+			<th>
+				<tr>หมายเลขบัตร</tr>
+				<tr>ชื่อ-สกุล</tr>
+				<tr>อีเมล์</tr>
+			</th>
+			<tbody>
+			<?php
+			foreach($query as $row){
+			?>
+				<tr>
+					<td><?php echo $row->Member_ID; ?></td>
+					<td><?php echo $row->Member_Name; ?></td>
+					<td><?php echo $row->Member_Email; ?></td>
+				</tr>
+				<?php
+			}
+			?>
+			</tbody>
+		</table>	
 		<p>The corresponding controller for this page is found at:</p>
 		<code>application/controllers/welcome.php</code>
 

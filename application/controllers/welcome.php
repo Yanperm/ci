@@ -9,6 +9,7 @@ class Welcome extends CI_Controller {
 	}
 	public function index()
 	{
-		$this->load->view('welcome_message');
+		$data['query'] = $this->database_model->select_member();
+		$this->load->view('welcome_message',$data);
 	}
 }
