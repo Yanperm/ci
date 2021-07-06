@@ -75,13 +75,13 @@
 		<p>If you would like to edit this page you'll find it located at:</p>
 		<code>application/views/welcome_message.php</code>
 		<table border="1px">
-			<th>
-				<tr>
-				<td>หมายเลขบัตร</td>
-				<td>ชื่อ-สกุล</td>
-				<td>อีเมล์</td>
-				</tr>
+			<thead>
+			<th>				
+				<th>หมายเลขบัตร</th>
+				<th>ชื่อ-สกุล</th>
+				<th>อีเมล์</th>				
 			</th>
+			</thead>
 			<tbody>
 			<?php
 			foreach($query as $row){
